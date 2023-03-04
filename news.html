@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+    <!-- <html>
+        include("before.html");
+    </html> -->
+
+<form enctype="multipart/form-data" action="xlydangky.php" name="frmdk" method="post">
+    <table align="center">
+        <tr> 
+            <td colspan="2"><b><h1 align="center"> ĐĂNG KÝ TÀI KHOẢN </h1></b> </td>
+        </tr>
+        <tr>
+            <td>Tên đăng nhập: </td>
+            <td><input type="text" name="tendn" /></td>
+        </tr>
+        <tr>
+            <td>Mật khẩu: </td>
+            <td><input type="password" name="matkhau" /></td>
+        </tr>
+        <tr>
+            <td>Họ tên: </td>
+            <td><input type="text" name="hoten" /></td>
+        </tr>
+        <tr>
+            <td>Giới tính: </td>
+            <td><input type="radio" name="gioitinh" value="0" /> Nam &nbsp;&nbsp; <input type="radio" name="gioitinh" value="1" /> Nữ</td>
+        </tr>
+        <tr>
+            <td>Quốc gia: </td>
+            <td>
+                <select name="quocgia">
+                <option value="Việt Nam" selected="selected"> Việt Nam </option>
+                <option value="China">China </option>
+                <option value="Japan">Japan </option>
+                <option value="Thái Lan"> Thái Lan </option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Ảnh đại diện: </td>
+            <td><input type="hidden" name="MAX_FILE_SIZE" value="1000000" />
+            <input type="file" name="hinhanh" /></td>
+        </tr>
+        <tr>
+            <td><input type="submit" name="dangky" value="Đăng Ký" /></td>
+            <td><input type="reset" name="lamlai" value="Làm lại" /></td>
+        </tr>
+    </table>
+</form>
+
+    <!-- <html>
+        include("after.html");
+    </html> -->
+</html>

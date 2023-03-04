@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<!-- 
+    1. h1 -> h6 - heading: tiêu đề. số càng lớn - chữ càng nhỏ
+    2. p - paragraph: đoạn văn
+    3. img - image: hình ảnh
+    4. a - anchor: liên kết
+    5. ul, li - unordered list, list item: in danh sách
+    6. table: tạo bảng
+    7. input
+    8. button: nút
+    9. div: tạo khối bao quanh phần tử
+ -->
+
+ <!-- 
+    Attribute: thuộc tính của thẻ html
+  -->
+
+<html>
+
+    <!-- Phần đầu -->
+    <head>
+        <meta charset="utf-8"> <!--hỗ trợ trang web hiển thị Tiếng Việt-->
+        <title>F8 - Shop</title>
+    </head>
+
+    <!-- Phần thân -->
+    <body>
+    <!-- <html>
+        include("before.html");
+    </html> -->
+        <div>
+            <table width="100%" height="20%" cellspacing="0" border="1" bgcolor="#FFFFFF" height="500" align="center">
+                <tr>
+                    <!--<td colspan="3" height="200"><img src="https://scontent.fsgn6-1.fna.fbcdn.net/v/t1.6435-9/58895143_2272642402994116_2000361905507532800_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=e3f864&_nc_ohc=YMRbuSksPpcAX8GJDYC&_nc_ht=scontent.fsgn6-1.fna&oh=00_AfD0dfxDpti70NJBBn7x5Hsi5NHk5b66ROiNWhl3p6gD1g&oe=63C11E59" /></td>-->
+                    <td align="right" size="5"><img src="110116036/hinhanh/rose.jpg"</td>
+                </tr>
+            </table>
+
+            <tr> 
+                <td colspan="2"><b><h1 align="center"> ĐĂNG NHẬP </h1></b> </td>
+            </tr>
+            <tr> 
+                <td> Tên dăng nhập: </td> <br>
+                <td> <input type="text" name="tendn" size="20"/> </td>
+            </tr>
+            <br>
+            <tr> 
+                <td> Mật khẩu: </td> <br>
+                <td> <input type="password" name="matkhau" size="20" maxlength="20" /> </td> 
+            </tr>
+            <tr>  <br>
+                <td> <input type="submit" name="sbmDNhap" value="Ðăng nhập"  /> </td>
+            </tr>
+
+            <h1><em>CHÀO MỪNG CÁC BẠN ĐÃ THAM GIA CỘNG ĐỒNG F8!</em></h1>
+            <h2 title="Tên Tôi"> hi_imkhoa</h2>
+
+            <input type="text">
+            <input type="checkbox">
+            <input type="radio">
+            <input type="time">
+            <hr> <!-- tạo đường gạch ngang -->
+        
+            <a href="https://mail.google.com/mail/u/0/#inbox"><button>Đăng kí</button></a>
+            <a href="https://fullstack.edu.vn/learning/html-css?id=cfc79208-7c8c-4043-b83d-3708350a73b2"><button>Trang chủ F8</button></a>
+            
+            <ul>
+                <li>HTML, CSS là gì?</li>
+                <li>Cài đặt môi trường</li>
+                <li>Các hàm</li>
+            </ul>
+
+            <a href="https://www.facebook.com/liokhoa1606/">Trang cá nhân</a> <!-- dẫn đến liên kết khác -->
+            <br>
+            <h1>CSS in HTML</h1>
+            <ul>
+                <li>Internal</li>
+                <li>External</li>
+                <li>Inline</li>
+            </ul>
+
+            <ol>
+                <li>Internal</li>
+                <li>External</li>
+                <li>Inline</li>
+            </ol>
+
+            <hr>
+            <br>
+            <p><strong>Tôi đã thấy lúc em cười, cũng đã thấy lúc em khóc. Tôi thấy lúc em nghiêm túc, cũng thấy lúc em trẻ con, nhưng chưa bao giờ thấy em yêu tôi</strong></p>
+            
+            <img src="https://scontent.fsgn6-2.fna.fbcdn.net/v/t39.30808-6/316957045_550106883793376_687189166572790741_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=730e14&_nc_ohc=nAQpD-ZYUq0AX_HdQCK&_nc_ht=scontent.fsgn6-2.fna&oh=00_AfDVGfIHuv_YMxoixI5MGW2aH9tCbMZ825NO580nC9FhjQ&oe=63945401" alt="hinhcuatui"> <!--alt="" hiển thị nội dung ảnh nếu ảnh bị lỗi -->
+            
+            <br> <!-- xuống dòng-->
+            <hr>
+            <table width="50%" border="2"> <!-- khai bao do rong và do dam cua bang -->
+                <thead>
+                    <th>STT</th>
+                    <th>Tên</th>
+                    <th>Địa chỉ</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Khoa</td>
+                        <td>Trà Vinh</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Diệu</td>
+                        <td>Trà Vinh</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>...</td>
+                        <td>...</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            
+            
+        </div>
+
+    <!-- <html>
+        include("after.html");
+    </html> -->
+    
+    </body>
+    <hr>
+    <td colspan="2"><h6 align="center"> Số điện thoại: 0329818333 </h6></td>
+</html>
+
+
