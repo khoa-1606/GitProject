@@ -1,0 +1,56 @@
+#wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+img {
+    width: 150px;
+    height: 80px;
+    float: left; 
+    /*float được sử dụng để thay đổi vị trí của phần tử trong luồng dàn trang
+    dàn phần tử thông thường (luồng dàn phần tử trong browser khi không dùng CSS hay CSS nhận các giá trị mặc định)
+    Thuộc tính này sẽ đẩy phần tử trôi về trái hoặc phải của phẩn tử chứa.
+    Cú pháp:
+            float: left | right | none | inherit;
+    - left: phần tử được trôi về phía bên trái. Luồng nội dung thông thường sẽ giữ ở bên phải, bắt đầu ở phần đỉnh của phần tử. Luồng nội dung xung quanh box thay đổi tùy thuộc vào giá trị của thuộc tính clear .
+    - right: phần tử được trôi về phía bên phải
+    - none: phần tử không bị đẩy về phía nào, vị trí của nó theo luồng dựng thông thường.
+    - inherit: giá trị float kế thừa từ phần tử cha.*/
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+
+#header {
+    text-align: center;
+    background: lightblue;
+    padding: 5px;
+    display: inline-block;
+    width: 960px;
+}
+
+#main-content {
+    display: flex;
+    min-height: 400px; /*độ cao nhỏ nhất*/
+}
+
+#content {
+    flex-basis: 70%;
+    background: lightcyan;
+}
+
+#sidebar {
+    flex-basis: 30%;
+    background: #f5f5f5;
+    padding: 15px;
+}
+
+.list {
+    padding-left: 0px;
+    list-style: none; /*bỏ dấu chấm đầu hàng*/
+}
+
+#footer {
+    background: lightgrey;
+    padding: 10px 15px;
+    text-align: center;
+}

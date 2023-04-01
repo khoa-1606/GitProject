@@ -1,0 +1,25 @@
+- Em đưa anh vào náo nhiệt, anh lắc đầu và đi ra
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+- UI, UX là gì? Cái nào quan trọng hơn
+- Có những thể loại website nào? 
+- Các loại chữ? Chữ nào nên dùng với loại nào:
++ Có chân: văn bản hành chính, …
++ Không chân: Đa phần web
++ Trang trí: dùng để nhấn mạnh (Ít)
++ Chữ viết tay: dùng để nhấn mạnh (Ít)
++ Mono: code
+- Các cách xác định 1 màu:
++ Tên màu (english)
++ rgb (x, y, z): red, green, blue. X, y, z là các số từ 0-255
++ hex: #abcdef
++ rgba(x, y, z, a): a-độ đậm nhạt: 0.00-1.0
+- Các loại web:
++ giải trí
++ báo
++ mạng xã hội
++ giáo dục
++ doanh nghiệp
++ games
++ forum, blog
++ ecomerce
++ bán hàng

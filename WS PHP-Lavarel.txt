@@ -1,0 +1,27 @@
+*** 18/3 - PHP/Lavarel
+* PHP là gì?
+- PHP là 1 ngôn ngữ kịch bản chạy trên phía server
+- Luôn được cải tiến và cập nhật
+- Hoàn toàn miễn phí
+- Tốc độ xử lý nhanh, dễ sử dụng
+- Có nhiều hướng dẫn sử dụng trên web
+- Có thể thực thi trên bất kì hệ điều hành nào
+* Sức mạnh của PHP
+- Đơn giản, linh động
+- Support bởi cộng đồng lớ
+- Hỡ trợ xử lý text tốt
+- Có nhiều framework, thư viện
+- PHP nhanh hơn Python, Ruby,... trong web
+* Framework phổ biến của PHP
+- Laravel
+- Code Igniter
+- Symfomy
+- ...
+* Laravel framework
+- Bắt đầu dễ dàng
+- Mã nguồn mở
+- Cấu trúc MVC và lập trình hướng đối tượng (OOP)
+- Hỗ trợ cộng đồng
+- Được xây dựng dựa trên những Framework hiệu quả nhất
+- Tính năng bảo mật hoàn thiện
+* Thị phần PHP - 2023 -> 77.5%
